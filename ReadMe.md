@@ -12,7 +12,7 @@ The project runs as expected. I did not implement any JavaScript or PHP code, th
 
 ## Live Version
 
-To view the live version of the code without downloading the HTML file, please click on the CodePen link.
+To view the live version of the code without downloading the HTML file, please click on the CodePen link ( https://codepen.io/E-Benny/pen/podaVqX ).
 
 ## Author
 
