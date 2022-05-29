@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Quiz App.css">
+</head>
+<body>
+    <div class="quiz-app" id="app">
+        <div class="header">
+          <h2>Quiz Application</h2>
+        </div>
+        <div class="subtitle">
+          <h3>Quiz 1 - HTML / CSS / JS Practice</h3>
+        </div>
+        <div class="placeholder">
+          <p>Results</p>
+          <p>You got 5 / 10 questions correct</p>
+          <p>50%</p>
+        </div>
+        <div class="questions">
+          <div class="list-1">
+            <form  action="#php" method="#get">
+            <label for="first-answer">1. What is the purpose of HTML and CSS?</label>
+              <input type="radio" id="css" value="0" v-form="incorrectAnswer">HTML handles data, CSS handles routing</input>
+            <input type="radio" id="css"  value=1>HTML tells the browser what to display, CSS tells it what style to display it in</input>
+          <input type="radio" id="css" name="html" value=0>HTML styles the page, CSS makes it interactive</input>
+        <input type="radio" id="css" value=0 v-model="incorrectAnswer">HTML makes the page interactive, CSS styles the page</input>
+      <p></p>
+            </form>
+          </div>
+      <div class="list-2">
+        <form action="#php" method="get">
+          <label for="second-answer">2. Which of these html tags contains the correct syntax?</label>
+          <input type="radio" id="css" name="html" value="html">Answer 1</input>
+        <input type="radio" id="css" name="html" value="html">Answer 2</input>
+      <input type="radio" id="css" name="html" value="html">Answer 3</input>
+      <input type="radio" id="css" name="html" value="html">Answer 4</input>
+        </form>
+      </div>
+      <div class="list-3">
+        <form action="#php" method="get">
+          <label for="third-answer">3. What is the output of the following code?
+            var answer = 5;
+            for(var i = 0; i < 10; i +=2){
+          answer += i;                        
+                                  }
+            console.log(answer);
+          </label>
+            <input type="radio" id="css" name="html" value="html">17</input>
+          <input type="radio" id="css" name="html" value="html">25</input>
+        <input type="radio" id="css" name="html" value="html">21</input>
+      <input type="radio" id="css" name="html" value="html">33</input>
+        </form>
+      </div>
+        </div>
+      <div class="submit">
+        <button type="submit">Submit</button>
+        <p class="bottom-text">Answer all questions before submitting. Unanswered questions are displayed in yellow.</p>
+      </div>
+      </div> 
+</body>
+</html>

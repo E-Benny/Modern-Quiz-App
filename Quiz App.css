@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background: #990000;
+    color: white;
+    padding: 10px;
+    border: 1px solid #990000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  body {
+    background: #e6e6e6;
+    height: 100vh;
+  }
+  
+  .subtitle {
+    color: #333333;
+    margin-left: 150px;
+    padding: 10px; /*Adjustable*/
+    font-size: 25px;
+  }
+  
+  .placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px 10px
+  }
+  
+  .questions {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .list-1 {
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    padding: 20px 120px 20px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .list-2 {
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    padding: 20px 120px 20px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .list-3 {
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    padding: 20px 120px 20px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 20px;
+  }
+  
+  button {
+    background: #008000;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #00b300;
+    font-size: 15px;
+  }
+  
+  .bottom-text {
+    color: red;
+  }
+  
